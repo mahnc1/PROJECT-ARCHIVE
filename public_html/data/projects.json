@@ -1,0 +1,26 @@
+[
+    {
+        "id": "project1",
+        "title": "Summer Fashion Campaign",
+        "coverImage": "assets/images/project1-cover.jpg",
+        "images": [
+            "assets/images/project1-1.jpg",
+            "assets/images/project1-2.jpg"
+        ],
+        "videos": [
+            "assets/videos/project1.mp4"
+        ],
+        "description": "An editorial shoot exploring modern summer styles, featuring minimal lighting and clean compositions."
+    },
+    {
+        "id": "project2",
+        "title": "Product Launch Lookbook",
+        "coverImage": "assets/images/project2-cover.jpg",
+        "images": [
+            "assets/images/project2-1.jpg",
+            "assets/images/project2-2.jpg"
+        ],
+        "videos": [],
+        "description": "Lookbook for the new product launch, blending lifestyle and studio photography."
+    }
+]
