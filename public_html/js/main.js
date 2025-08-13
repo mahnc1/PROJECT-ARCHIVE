@@ -57,8 +57,15 @@ if (isTouch) {
                     project.videos.forEach(src => {
                         const video = document.createElement("video");
                         video.src = src;
-                        video.controls = true;
-                        video.onloadeddata = () => video.classList.add("loaded");
+                        video.autoplay = true;
+                        video.loop = true;
+                        video.muted = true;
+                        video.controls = false;
+                        video.onloadeddata = () => {
+                            video.classList.add("loaded");
+                            video.play();
+                        };
+                        video.addEventListener("pause", () => video.play());
                         projectDetail.appendChild(video);
                     });
 
